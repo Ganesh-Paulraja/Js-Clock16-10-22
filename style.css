@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container .full-box {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .full-box .clock-box {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 8px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.container .full-box .clock-box .date span {
+  font-size: 30px;
+}
+.container .full-box .clock-box .day {
+  font-size: 30px;
+  margin-top: 8px;
+}
+.container .full-box .clock-box .time {
+  display: flex;
+  justify-content: center;
+}
+.container .full-box .clock-box .colon {
+  position: relative;
+  top: 10px;
+  font-size: 30px;
+}
+.container .full-box .clock-box span:nth-child(6) {
+  font-size: 30px;
+  position: relative;
+  top: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  .full-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .clock-box {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      border: 8px solid #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      flex-direction: column;
+      padding-top: 30px;
+      .date {
+        span {
+          font-size: 30px;
+        }
+      }
+      .day {
+        font-size: 30px;
+        margin-top: 8px;
+      }
+      .time {
+        display: flex;
+        justify-content: center;
+      }
+      .colon {
+        position: relative;
+        top: 10px;
+        font-size: 30px;
+      }
+      span:nth-child(6) {
+        font-size: 30px;
+        position: relative;
+        top: 16px;
+      }
+    }
+  }
+}
